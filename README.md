@@ -48,8 +48,8 @@ This project can be viewed as a large-scale terrain generation system composed o
 ## How to execute them?
 just execute
 ```
-g++ perlin-based_atlas/main.cpp perlin-based_atlas/lib/glad.c -Iinclude -Llib -lglfw3 -lopengl32 -lgdi32 -luser32 -lkernel32 -lshell32 -lsetupapi -o perlin-based_atlas/build/atlas.exe
-.\build\atlas.exe
+g++ main.cpp lib/glad.c -Iinclude -Llib -lglfw3 -lopengl32 -lgdi32 -luser32 -lkernel32 -lshell32 -lsetupapi -o atlas.exe
+.\atlas.exe
 ```
 in each of the directory
 
